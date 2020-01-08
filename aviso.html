@@ -328,7 +328,7 @@
                 
                 <div class="navigation__menu c-overflow">
                     <ul>
-                        <li class="navigation__active">
+                        <li>
                             <a href="index.html"><i class="zmdi zmdi-home"></i> Tablero</a>
                         </li>
 
@@ -336,7 +336,7 @@
                             <a href="factura.html"><i class="zmdi zmdi-local-atm"></i> Facturas</a>
                         </li>
 
-                        <li>
+                        <li class="navigation__active">
                             <a href="aviso.html"><i class="zmdi zmdi-view-subtitles"></i> Avisos</a>
                         </li>
 
@@ -355,340 +355,89 @@
                 
             </aside>
             <section id="content">
-                    <div id="content__grid" data-columns>
-
-                        
-                            <div class="card">
-                                    <br>
-                                        <div class="card__header card__header--img" style="background-image: url(img/5.png); height: 270px;"></div>
-                                        <div class="card__header">
-                                            <h2 align="center">
-                                                Mensaje ACUOTB-21 "Reunión"
-                
-                                                <small>Enviado desde la central el 08 Enero 2020 a horas 09:10 AM</small>
-                                            </h2>
-                                        </div>
-                                        <div class="card__body">
-                                            <p>Estimados Socios de la OTB 21 de Septiembre, se les comunica que el día Domingo 02 Febrero 2019 se realizara el cobro de agua a partir de las 08:00am hasta 11:00am, recordarles que pasando la hora no se llebara a cabo ni una atención, se les ruega puntualidad y compromiso, saludos.</p>
-                
-                                            <a href="" class="view-more text-left"><i class="zmdi zmdi-long-arrow-right"></i> Ver Aviso..</a>
-                                        </div>
-                                    </div>
-
-                            <div class="card widget-recent-signups">
-                                    <div class="card__header card__header--highlight">
-                                        <h2>Socio OTB-21<small>Rendimiento anual y mensual</small></h2>
-                                        <div class="actions">
-                                            <div class="dropdown">
-                                                <a href="" data-toggle="dropdown"><i class="zmdi zmdi-more-vert"></i></a>
-                                                <ul class="dropdown-menu pull-right">
-                                                    <li><a href="">Actualizar</a></li>
-                                                    <li><a href="">Reportar</a></li>
-                                                </ul>
-                                                
-                                            </div>
-                                        </div>
-            
-                                        <div class="chart-sparkline-line m-t-20">9,4,6,5,6,4,5,7,9,3,6,5,9</div>
-                                        
-                                    </div><br>
-                                    <div class="col-sm-2">
-                                        
-                                    </div>
-                                    <div class="col-sm-8">
-                                        <div class="input-group">
-                                            <span class="input-group-addon"><i class="zmdi zmdi-calendar"></i></span>
-                                                <div class="form-group">
-                                                <input type='text' class="form-control date-picker" placeholder="Busquemos una fecha..">
-                                                <i class="form-group__bar"></i>
-                                            </div>
-                                        </div>
-                                    </div><br><br>
-                                   
-                                    <div class="card__body widget-recent-signups__list">
-                                        <a href=""><div class="avatar-char">E</div></a>
-                                        <a href=""><div class="avatar-char">F</div></a>
-                                        <a href=""><div class="avatar-char">M</div></a>
-                                        <a href=""><div class="avatar-char">A</div></a>
-                                        <a href=""><div class="avatar-char">M</div></a>
-                                        <a href=""><div class="avatar-char">J</div></a>
-                                        <a href=""><div class="avatar-char">J</div></a>
-                                        <a href=""><div class="avatar-char">A</div></a>
-                                        <a href=""><div class="avatar-char">S</div></a>
-                                        <a href=""><div class="avatar-char">O</div></a>
-                                        <a href=""><div class="avatar-char">N</div></a>
-                                        <a href=""><div class="avatar-char">D</div></a>
-                                       
-                                    </div>
-                                </div>
-
-        
-                           
-        
-                            <div class="card widget-past-days">
-                                <div class="card__header">
-                                    <h2>Recivo Mensual<small>Los resultados se actualizaran cada mes</small></h2>
-                                    <div class="actions">
-                                        <div class="dropdown">
-                                            <a href="" data-toggle="dropdown"><i class="zmdi zmdi-more-vert"></i></a>
-                                            <ul class="dropdown-menu pull-right">
-                                                    <li><a href="">Actualizar</a></li>
-                                                    <li><a href="">Reportar</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-        
-                                <div class="flot-chart-edge">
-                                    <div class="flot-chart flot-chart--sm" id="chart-past-days"></div>
-                                </div>
-        
-                                <div class="list-group list-group--striped">
-                                    <div class="list-group-item">
-                                        <div class="widget-past-days__chart hidden-sm">
-                                            <div class="chart-sparkline-bar">6,9,5,6,3,7,5,4,6,5,6,4,2,5,8,2,6,9</div>
-                                        </div>
-        
-                                        <div class="widget-past-days__info">
-                                            <small>Lectura Medidor</small>
-                                            <h3>6569</h3>
-                                        </div>
-                                    </div>
-        
-                                    <div class="list-group-item">
-                                            <div class="widget-past-days__chart hidden-sm">
-                                                <div class="chart-sparkline-bar">10,27,-14,13,15,-16,17,26,18,-12,15,12,17,-15,16,21,16,18</div>
-                                            </div>
-            
-                                            <div class="widget-past-days__info">
-                                                <small>Monto a Cancelar</small>
-                                                <h3>Bs. 23.00</h3>
-                                            </div>
-                                        </div>
-
-                                    <div class="list-group-item">
-                                        <div class="widget-past-days__chart hidden-sm">
-                                            <div class="chart-sparkline-bar">0,0,0,0,-30,0,0,-30,0,0,-30,0,0,0,0</div>
-                                        </div>
-        
-                                        <div class="widget-past-days__info">
-                                            <small>Multa a cancelar</small>
-                                            <h3>Bs. 0.00</h3>
-                                        </div>
-                                    </div>
-        
-                                    <div class="list-group-item">
-                                        <div class="widget-past-days__chart hidden-sm">
-                                            <div class="chart-sparkline-bar">,5,-5,10,5,5,10,10,5,-5,10,5,10,5,-5,10,5</div>
-                                        </div>
-        
-                                        <div class="widget-past-days__info">
-                                            <small>Inasistencia Asamblea Multa</small>
-                                            <h3>Bs. 150.00</h3>
-                                        </div>
-                                    </div>
-        
-                                </div>
+                <div id="content__grid" data-columns>
+                    <div class="card">
+                            <div class="card__header card__header--img" style="background-image: url(img/12.jpg); height: 270px;"></div>
+                            <div class="card__header">
+                                <br>
+                                <h2 align="center">
+                                    Mensaje ACUOTB-21 "Mantenimiento"
+    
+                                    <small>Enviado desde la central el 02 Enero 2020 a horas 09:10 AM</small>
+                                </h2>
                             </div>
-        
-                            <div class="card widget-rating">
-                                <div class="card__header text-center">
-                                    <h2>Asambleas del Año</h2>
-                                    <div class="actions">
-                                        <div class="dropdown">
-                                            <a href="" data-toggle="dropdown"><i class="zmdi zmdi-more-vert"></i></a>
-                                            <ul class="dropdown-menu pull-right">
-                                                <li><a href="" align="center">TA - Tarde</a></li>
-                                                <li><a href="" align="center">Si - Asistio</a></li>
-                                                <li><a href="" align="center">No - Falta</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="widget-rating__star">
-                                        <i class="zmdi zmdi-home active"></i>
-                                        <i class="zmdi zmdi-home active"></i>
-                                        <i class="zmdi zmdi-home active"></i>
-                                        <i class="zmdi zmdi-home active"></i>
-                                        <i class="zmdi zmdi-home active"></i>
-                                        <i class="zmdi zmdi-home"></i>
-                                    </div>
-                                </div>
-        
-                                <div class="list-group">
-                                    <div class="list-group-item media">
-                                        <div class="pull-left">
-                                            05/01/19
-                                        </div>
-        
-                                        <div class="pull-right">TA</div>
-        
-                                        <div class="media-body">
-                                            <div class="progress">
-                                                <div class="progress-bar" style="width: 50%">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-        
-                                    <div class="list-group-item media">
-                                        <div class="pull-left">
-                                            16/04/19
-                                        </div>
-        
-                                        <div class="pull-right">SI</div>
-        
-                                        <div class="media-body">
-                                            <div class="progress">
-                                                <div class="progress-bar" style="width: 100%">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-        
-                                    <div class="list-group-item media">
-                                        <div class="pull-left">
-                                            05/07/19
-                                        </div>
-        
-                                        <div class="pull-right">TA</div>
-        
-                                        <div class="media-body">
-                                            <div class="progress">
-                                                <div class="progress-bar" style="width: 50%">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-        
-                                    <div class="list-group-item media">
-                                        <div class="pull-left">
-                                            25/09/19
-                                        </div>
-        
-                                        <div class="pull-right">NO</div>
-        
-                                        <div class="media-body">
-                                            <div class="progress">
-                                                <div class="progress-bar" style="width: 0%">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-        
-                                    <div class="list-group-item media">
-                                        <div class="pull-left">
-                                            02/11/19
-                                        </div>
-        
-                                        <div class="pull-right">SI</div>
-        
-                                        <div class="media-body">
-                                            <div class="progress">
-                                                <div class="progress-bar" style="width: 100%">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-        
-                                    <div class="list-group-item media">
-                                        <div class="pull-left">
-                                            16/12/19
-                                        </div>
-        
-                                        <div class="pull-right"></div>
-        
-                                        <div class="media-body">
-                                            <div class="progress">
-                                                <div class="progress-bar" style="width: 0%">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="card__body">
+                                <p>Estimados Socios de la OTB 21 de Septiembre, comunicarles que tuvimos un percance en la calle Primavera el dia de hoy, el cual nos obligo a cerrar el tanque de agua Nº 2 para evitar el desperdicio de agua, estamos trabajando en ello, se le ruega comprencion a usted y su familia, saludos.</p>
+    
+                                <a href="" class="view-more text-left"><i class="zmdi zmdi-long-arrow-right"></i> Ver Aviso..</a>
                             </div>
-        
-                            
-        
-                            <div class="card widget-calendar">
-                                <div class="card__header card__header--highlight">
-                                    <div align="center" class="widget-calendar__year"></div>
-                                    <div align="center" class="widget-calendar__day"></div>
-        
-                                </div>
-        
-                                <div class="card__body--sm">
-                                    <div id="widget-calendar__main"></div>
-                                </div>
-                            </div>
-
-                            
-
-
-
-
-                            <div class="card">
-                                    <div class="card__header">
-                                        <h2 align="center">Directiva OTB-Agua <small>Responsables Comición de Agua</small></h2>
-                                        <div class="actions">
-                                            <div class="dropdown">
-                                                <a href="" data-toggle="dropdown"><i class="zmdi zmdi-more-vert"></i></a>
-                                                <ul class="dropdown-menu pull-right">
-                                                    <li><a href="">Refrescar</a></li>
-                                                    <li><a href="">Reportar</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-            
-                                    <div class="list-group">
-                                        <a href="" class="list-group-item media">
-                                            <div class="pull-left">
-                                                <img class="avatar-img" src="img/usuarios/man.png" alt="">
-                                            </div>
-            
-                                            <div class="media-body">
-                                                <div class="list-group__heading">Eliseo Rioja</div>
-                                                <small class="list-group__text">Presidente de la comición de Agua</small>
-                                            </div>
-                                        </a>
-            
-                                        <a href="" class="list-group-item media">
-                                            <div class="pull-left">
-                                                <img class="avatar-img" src="img/usuarios/girl-7.png" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <div class="list-group__heading">Virginia Gutierrez</div>
-                                                <small class="list-group__text">Secretaria de actas de comición de Agua y reuniones OTB.</small>
-                                            </div>
-                                        </a>
-            
-                                        <a href="" class="list-group-item media">
-                                            <div class="pull-left">
-                                                <img class="avatar-img" src="img/usuarios/boy-1.png" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <div class="list-group__heading">Alberto Cruz Villca</div>
-                                                <small class="list-group__text">Tesorero interino de comición de Agua</small>
-                                            </div>
-                                        </a>
-            
-                                        <a href="" class="list-group-item media">
-                                            <div class="pull-left">
-                                                <img class="avatar-img" src="img/usuarios/boy-5.png" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <div class="list-group__heading">Saúl Mamani Choque</div>
-                                                <small class="list-group__text">Encargado de Sistema Informatico y mantenimiento ACUOTB</small>
-                                            </div>
-                                        </a>
-            
-                                        <a href="" class="view-more">
-                                            <i class="zmdi zmdi-long-arrow-right"></i> Ver detalle
-                                        </a>
-                                    </div>
-                                </div>
-                            
                         </div>
+                        <div class="card">
+                                <div class="card__header card__header--img" style="background-image: url(img/na.png); height: 270px;"></div>
+                                <div class="card__header">
+                                    <br>
+                                    <h2 align="center">
+                                        Mensaje ACUOTB-21 "Navidad"
+        
+                                        <small>Enviado desde la central el 23 Diciembre 2019 a horas 09:10 AM</small>
+                                    </h2>
+                                </div>
+                                <div class="card__body">
+                                    <p>Estimados Socios de la OTB 21 de Septiembre, les deceamos unas felices fiestas esperando que la pasen con sus seres queridos, recordarte tambien querido socio que la OTB no se olvido de ti, te preparamos un canaston con mucho amor para compartirlo en familia, no olvides pasar a recogerlo, saludos.</p>
+        
+                                    <a href="" class="view-more text-left"><i class="zmdi zmdi-long-arrow-right"></i> Ver Aviso..</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                    <div class="card__header card__header--img" style="background-image: url(img/ani.png); height: 270px;"></div>
+                                    <div class="card__header">
+                                        <br>
+                                        <h2 align="center">
+                                            Mensaje ACUOTB-21 "Aniversario"
+            
+                                            <small>Enviado desde la central el 03 Septiembre 2019 a horas 09:10 AM</small>
+                                        </h2>
+                                    </div>
+                                    <div class="card__body">
+                                        <p>Estimados Socios de la OTB 21 de Septiembre, se acerca una fecha muy importante para la OTB, cumpliremos 11 años y queremos festejarlo con tigo de la mejor manera, prepararemos 3 platillos tradicionales para gusto y deleite suyo y el de su familia, recuerda que ya tienes un plato recervado, saludos.</p>
+            
+                                        <a href="" class="view-more text-left"><i class="zmdi zmdi-long-arrow-right"></i> Ver Aviso..</a>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card__header card__header--img" style="background-image: url(img/anim.jpg); height: 270px;"></div>
+                                    <div class="card__header">
+                                        <br>
+                                        <h2 align="center">
+                                            Mensaje ACUOTB-21 "Aniversario"
+            
+                                            <small>Enviado desde la central el 03 Septiembre 2019 a horas 09:10 AM</small>
+                                        </h2>
+                                    </div>
+                                    <div class="card__body">
+                                        <p>Estimados Socios de la OTB 21 de Septiembre, se acerca una fecha muy importante para la OTB, cumpliremos 11 años y queremos festejarlo con tigo de la mejor manera, prepararemos 3 platillos tradicionales para gusto y deleite suyo y el de su familia, recuerda que ya tienes un plato recervado, saludos.</p>
+            
+                                        <a href="" class="view-more text-left"><i class="zmdi zmdi-long-arrow-right"></i> Ver Aviso..</a>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card__header card__header--img" style="background-image: url(img/salud.png); height: 270px;"></div>
+                                    <div class="card__header">
+                                        <br>
+                                        <h2 align="center">
+                                            Mensaje ACUOTB-21 "Aniversario"
+            
+                                            <small>Enviado desde la central el 03 Septiembre 2019 a horas 09:10 AM</small>
+                                        </h2>
+                                    </div>
+                                    <div class="card__body">
+                                        <p>Estimados Socios de la OTB 21 de Septiembre, se acerca una fecha muy importante para la OTB, cumpliremos 11 años y queremos festejarlo con tigo de la mejor manera, prepararemos 3 platillos tradicionales para gusto y deleite suyo y el de su familia, recuerda que ya tienes un plato recervado, saludos.</p>
+            
+                                        <a href="" class="view-more text-left"><i class="zmdi zmdi-long-arrow-right"></i> Ver Aviso..</a>
+                                    </div>
+                                </div>
+                 </div>
+                                
             </section>
 
             
