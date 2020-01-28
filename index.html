@@ -24,7 +24,7 @@
 
 
 
-        <title>ACUOTB PWA</title>
+        <title>CAP-21</title>
 
         <!-- Vendors -->
 
@@ -68,19 +68,32 @@
         <header id="header">
             <div class="logo">
                 <a href="index.html" class="hidden-xs" align="center">
-                    ACUOTB
-                    <small>Sistema de Agua-21</small>
+                    CAP-21
+                    <small>Sistema de facturacion</small>
                 </a>
                 <i class="logo__trigger zmdi zmdi-menu" data-mae-action="block-open" data-mae-target="#navigation"></i>
             </div>
 
             <ul class="top-menu">
-                <li class="top-menu__trigger hidden-lg hidden-md">
-                    <h4 style="margin-left: -30%;">ACUOTB</h4>
+                <!-- <li class="top-menu__trigger hidden-lg hidden-md">
+                    <h4 style="margin-left: -30%;">CAP-21</h4>
                     <h6 style="margin-left: -55%;">Sistema Cobro de Agua</h6>
+                </li> -->
+                <li class="dropdown">
+                    <a data-toggle="dropdown" href=""><i class="zmdi zmdi-more-vert"></i></a>
+                    <ul class="dropdown-menu dropdown-menu--icon pull-right">
+                        <li class="hidden-xs">
+                            <a data-mae-action="fullscreen" href=""><i class="zmdi zmdi-fullscreen"></i> Pantalla Completa</a>
+                        </li>
+                        <li>
+                            <a data-mae-action="clear-localstorage" href=""><i class="zmdi zmdi-delete"></i> Eliminar Caches</a>
+                        </li>
+                        <li>
+                            <a href=""><i class="zmdi zmdi-face"></i> Configuracion Perfil</a>
+                        </li>
+                    </ul>
                 </li>
-                
-                <li class="top-menu__apps dropdown hidden-xs hidden-sm">
+                <li class="top-menu__apps dropdown">
                     <a data-toggle="dropdown" href="">
                         <i class="zmdi zmdi-apps"></i>
                     </a>
@@ -105,20 +118,7 @@
                               </li>
                           </ul>
                 </li>
-                <li class="dropdown hidden-xs">
-                    <a data-toggle="dropdown" href=""><i class="zmdi zmdi-more-vert"></i></a>
-                    <ul class="dropdown-menu dropdown-menu--icon pull-right">
-                        <li class="hidden-xs">
-                            <a data-mae-action="fullscreen" href=""><i class="zmdi zmdi-fullscreen"></i> Pantalla Completa</a>
-                        </li>
-                        <li>
-                            <a data-mae-action="clear-localstorage" href=""><i class="zmdi zmdi-delete"></i> Eliminar Caches</a>
-                        </li>
-                        <li>
-                            <a href=""><i class="zmdi zmdi-face"></i> Configuracion Perfil</a>
-                        </li>
-                    </ul>
-                </li>
+                
                 <!-- <li class="top-menu__alerts" data-mae-action="block-open" data-mae-target="#notifications" data-toggle="tab" data-target="#notifications__messages">
                     <a href=""><i class="zmdi zmdi-notifications"></i></a>
                 </li> -->
@@ -360,23 +360,25 @@
             <section id="content">
                     <div id="content__grid" data-columns>
 
-                        
                             <div class="card">
-                                    <br>
-                                        <div class="card__header card__header--img" style="background-image: url(img/5.png); height: 270px;"></div>
-                                        <div class="card__header">
-                                            <h2 align="center">
-                                                Mensaje ACUOTB-21 "Reunión"
-                
-                                                <small>Enviado desde la central el 08 Enero 2020 a horas 09:10 AM</small>
-                                            </h2>
-                                        </div>
-                                        <div class="card__body">
-                                            <p>Estimados Socios de la OTB 21 de Septiembre, se les comunica que el día Domingo 02 Febrero 2019 se realizara el cobro de agua a partir de las 08:00am hasta 11:00am, recordarles que pasando la hora no se llebara a cabo ni una atención, se les ruega puntualidad y compromiso, saludos.</p>
-                
-                                            <a href="" class="view-more text-center"><i class="zmdi zmdi-thumb-up"></i> Marcar como leido..</a>
-                                        </div>
-                                    </div>
+                            <br>
+                                <div class="card__header card__header--img" style="background-image: url(img/5.png); height: 270px;"></div>
+                                <div class="alert alert-success" align="center">FEBRERO - 2020</div>
+                                <div class="card__header">
+                                    <h2 align="center">
+                                        Mensaje CAP-21 "Reunión"<small>Enviado desde la central el 08 Enero 2020 a horas 09:10 AM</small>
+                                    </h2>
+                                </div>
+                                <div class="card__body">
+                                    <p>Estimados Socios de la OTB Villa 21 de Septiembre, 
+                                        se les comunica que el día Domingo 02 Febrero 2019 
+                                        se realizara el cobro de agua a partir de las 
+                                        08:00am hasta 11:00am, recordarles que pasando la 
+                                        hora no se llebara a cabo ni una atención, 
+                                        se les ruega puntualidad y compromiso, saludos.</p>
+                                    <a href="" class="view-more text-center"><i class="zmdi zmdi-thumb-up"></i> Marcar como leido..</a>
+                                </div>
+                            </div>
 
                             <!-- <div class="card widget-recent-signups">
                                     <div class="card__header card__header--highlight">
@@ -429,78 +431,42 @@
                                     <div class="card__header">
                                         <h2 align="center"><img class="avatar-img" src="img/usuarios/ees.png" alt=""> <br><br> Aviso Importante <br><br>
                                             <small>Revisa siempre la lectura de tu medidor y comparala con la del sistema.
-                                            Si la lectura no es correcta, comunícate con nostros lo más antes posible para corregir
-                                            el error, recuerda traer el monto fraccionado para hacer mas eficiente el pago, Saludos.
+                                            Si la lectura no es correcta, comunícate con nosotros lo más antes posible para corregir
+                                            el error, Saludos.
                                             </small>
                                         </h2><br>
                                     </div>
                                 </div>
-                                
-                            <div class="card widget-past-days">
-                                <div class="card__header">
-                                    <h2>Recivo del Mes<small>Los recivos se actualizaran cada mes</small></h2>
-                                    <div class="actions">
-                                        <div class="dropdown">
-                                            <a href="" data-toggle="dropdown"><i class="zmdi zmdi-more-vert"></i></a>
-                                            <ul class="dropdown-menu pull-right">
-                                                    <li><a href="">Actualizar</a></li>
-                                                    <li><a href="">Reportar</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-        
-                                <div class="flot-chart-edge">
-                                    <div class="flot-chart flot-chart--sm" id="chart-past-days"></div>
-                                </div>
-        
-                                <div class="list-group list-group--striped">
-                                    <div class="list-group-item">
-                                        <div class="widget-past-days__chart hidden-sm">
-                                            <div class="chart-sparkline-bar">6,7,8,9,10,13,20,22,37,46,49,70,73,79,102,123</div>
-                                        </div>
-        
-                                        <div class="widget-past-days__info">
-                                            <small>Lectura Medidor</small>
-                                            <h3>6569</h3>
-                                        </div>
-                                    </div>
-        
-                                    <div class="list-group-item">
-                                            <div class="widget-past-days__chart hidden-sm">
-                                                <div class="chart-sparkline-bar">10,27,-14,13,15,-16,17,26,18,-12,15,12,17,-15,16,21,16,18</div>
-                                            </div>
-            
-                                            <div class="widget-past-days__info">
-                                                <small>Monto a Cancelar</small>
-                                                <h3>Bs. 23.00</h3>
-                                            </div>
-                                        </div>
 
-                                    <div class="list-group-item">
-                                        <div class="widget-past-days__chart hidden-sm">
-                                            <div class="chart-sparkline-bar">0,0,0,0,-30,0,0,-30,0,0,0,0,0,-30,0</div>
-                                        </div>
+                                <div class="row pricing-table">
+                                    <div class="col-sm-12">
+                                        <div class="pricing-table__item">
+                                            <div class="pricing-table__header">
+                                                <h2>Bs.-17 <small>| Bs. 0.00</small></h2 >
+                                            </div>
         
-                                        <div class="widget-past-days__info">
-                                            <small>Multa a cancelar</small>
-                                            <h3>Bs. 0.00</h3>
+                                            <div class="alert alert-warning">FEBRERO - 2020</div>
+                            
+                                            <div class="pricing-table__body">
+                                                <div class="pricing-table__list">
+                                                    Señor socio, acaba de salir su recivo del mes correspondiente,
+                                                    recuerda que llegando al 3º mes de no pagar, el sistema le sumara un
+                                                    monto de Bs.- 30.00 adicionales a su cuenta.
+                                                    Le rogamos compromiso con el pago de sus cuotas.
+                                                </div>
+                                                <div class="pricing-table__list">
+                                                        Saludos Cap21
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="pricing-table__footer">
+                                                <a href="#"data-trigger="hover" data-toggle="popover" data-placement="top" data-content="El monto a su derecha es la multa asignada al mes." title="" data-original-title="El Monto a su izquierda es el consumo de agua del mes"><i class="zmdi zmdi-check"></i></a>
+                                            </div>
                                         </div>
                                     </div>
-        
-                                    <div class="list-group-item">
-                                        <div class="widget-past-days__chart hidden-sm">
-                                            <div class="chart-sparkline-bar">0,-50,0,0,0,0,</div>
-                                        </div>
-        
-                                        <div class="widget-past-days__info">
-                                            <small>Inasistencia Asamblea Multa</small>
-                                            <h3>Bs. 50.00</h3>
-                                        </div>
-                                    </div>
-        
                                 </div>
-                            </div>
+                                
+                                
         
                             <div class="card widget-rating">
                                 <div class="card__header text-center">
@@ -685,7 +651,7 @@
 
                             <div class="card">
                                     <div class="card__header">
-                                        <h2 align="center">Directiva OTB-Agua <small>Responsables Comición de Agua</small></h2>
+                                        <h2 align="center">Directiva CAP-21 <small>Responsables Comición de Agua</small></h2>
                                         <div class="actions">
                                             <div class="dropdown">
                                                 <a href="" data-toggle="dropdown"><i class="zmdi zmdi-more-vert"></i></a>
@@ -735,7 +701,7 @@
                                             </div>
                                             <div class="media-body">
                                                 <div class="list-group__heading">Saúl Mamani Choque</div>
-                                                <small class="list-group__text">Encargado de Sistema Informatico y mantenimiento ACUOTB</small>
+                                                <small class="list-group__text">Encargado de Sistema Informatico y mantenimiento CAP-21</small>
                                             </div>
                                         </a>
             
